@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/7cc7f624f1.js" crossorigin="anonymous"></script>
+   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+   <title>Цахимаар суръя | ****.mn</title>
+</head>
+<body>
+   <nav id="main-nav">
+      <div class="container">
+         <img class="logo" src="img/logo.png" alt="logo">
+         <div class="social">
+            <a href="https://www.youtube.com/channel/UCqHCYdhcCQmWZBJe_gBp8Lw"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a>
+         </div>
+         <ul>
+            <li><a href="index.html">Нүүр</a></li>
+            <li><a href="lessons.html">Хичээлүүд</a></li>
+            <li><a class="current" href="contact.html">Холбогдох</a></li>
+         </ul>
+      </div>
+   </nav>
+      <!-- section:A -->
+      <section id="contact-a" class="text-center py-3">
+         <div class="container">
+            <h2 class="section-title">Холбоо барих</h2>
+            <div class="bottom-line"></div>
+            <p class="lead">Та зурвасаа бичиж үлдээнэ үү</p>
+            <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+               <div class="text-fields">
+                  <input type="text" class="text-input name-input" placeholder="Нэр" name="name">
+                  <input type="text" class="text-input subject-input" placeholder="Гарчиг" name="subject">
+                  <input type="email" class="text-input email-input" placeholder="Цахим шуудан" name="email">
+                  <input type="text" class="text-input phone-input" placeholder="Утас" name="phone">
+                  <textarea class="text-input message-input" placeholder="Захидал" name="message"></textarea>
+                  <div class="my-2">
+                     <div data-netlify-recaptcha="true"></div>
+                  </div>
+               </div>
+               <button type="submit" class="btn btn-primary">Илгээх</button>
+            </form>
+         </div>
+      </section>
+     <section id="contact-b" class="bg-dark">
+        <div class="container">
+           <div class="contact-info">
+              <div>
+                 <i class="fas fa-envelope fa-2x"></i>
+                 <h3>Цахим шуудан</h3>
+                 <p>info@example.com</p>
+              </div>
+              <div>
+                 <i class="fas fa-phone fa-2x"></i>
+                 <h3>Утас</h3>
+                 <p>+976 ********</p>
+              </div>
+              <div>
+                 <i class="fab fa-facebook-messenger fa-2x"></i>
+                 <h3>Чат</h3>
+                 <p>facebook.com/name.name</p>
+              </div>
+           </div>
+        </div>
+     </section>
+
+<!-- footer -->
+<footer id="main-footer" class="bg-dark">
+    <div class="container foot-container">
+       <div>
+             <p>2020 он Улаанбаатар хот</p>
+       </div>
+    </div>
+ </footer>
+</body>
+</html>

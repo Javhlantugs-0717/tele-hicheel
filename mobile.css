@@ -1,0 +1,32 @@
+html {
+   font-size: 10px;
+}
+
+#main-nav .social {
+   opacity: 0;
+}
+
+#articles .article-container {
+   display: inline-block;
+}
+
+#main-footer .foot-container {
+   display: inline-block;
+}
+
+.showcase-container {
+   grid-template-columns: 1fr 1fr;
+}
+
+#about .page-container {
+   display: inline-block;
+}
+
+#article .page-container {
+   display: inline-block;
+}
+
+#article .page-container .card {
+   margin: 1rem;
+}
+
