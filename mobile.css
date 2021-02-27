@@ -2,24 +2,13 @@ html {
    font-size: 10px;
 }
 
+#main-nav .logo {
+   width: 100px;
+ }
+
 #main-nav .social {
    opacity: 0;
 }
-
-#main-nav .container {
-   display: block;
-   padding: 1rem;
-   align-items: center;
- }
-
- #main-nav .container ul {
-   padding: 1rem;
-   align-items: center;   
- }
-
- #main-nav .container ul li {
-   padding: 0.5rem 0; 
- }
 
 #articles .article-container {
    display: inline-block;
